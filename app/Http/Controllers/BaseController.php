@@ -25,6 +25,7 @@ abstract class BaseController
     }
 
 
+
     private function __clone()
     {
         // TODO: Implement __clone() method.
