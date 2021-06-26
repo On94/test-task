@@ -46,7 +46,6 @@ BaseRepository::setEntityManager($entityManager);
 
 //--------------------
 
-require_once 'routes/api.php';
 try {
     require_once 'routes/api.php';
 } catch (\Exception $exception) {
