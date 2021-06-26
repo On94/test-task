@@ -16,11 +16,14 @@ abstract class BaseController
      */
     public static View $view;
 
-
-    public static function init()
+    /**
+     * BaseController constructor.
+     */
+    public function __construct()
     {
         self::$view = new View();
     }
+
 
     private function __clone()
     {
